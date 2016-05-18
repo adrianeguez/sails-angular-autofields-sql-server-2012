@@ -63,3 +63,5 @@ donde:
 
 - **connection**     Es el nombre de la cadena de conexion
 
+Autor : [Adrian Eguez Sarzosa](https://github.com/adrianeguez)
+
