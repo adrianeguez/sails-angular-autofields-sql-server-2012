@@ -1,5 +1,5 @@
 /**
- * Persons.js
+ * Pokemons.js
  *
  * @description :: TODO: You might write a short summary of how this model works and what it represents here.
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
@@ -9,25 +9,28 @@ module.exports = {
     schema: true,
     autoUpdatedAt: false,
     autoCreatedAt: false,
-    tableName: 'Persons',
+    tableName: 'Pokemons',
     autoPK: true,
     attributes: {
-        Persons_ID: {
+        Pokemons_ID: {
             type: 'integer',
             autoIncrement: true,
             primaryKey: true,
         },
-        LastName: {
+        Name: {
             type: 'string',
         },
-        FirstName: {
+        TypeNature1: {
             type: 'string',
         },
-        Address: {
+        TypeNature2: {
             type: 'string',
         },
-        City: {
+        urlFoto: {
             type: 'string',
+        },
+        Persons_ID: {
+            type: 'integer'
         }
     }
 };

@@ -1,7 +1,95 @@
 # sails-angular-autofields-sql-server-2012
 Este es un repositorio para los estudiantes de base de datos de la Escuela Politecnica Nacional para conectar mediante Sails usando Angular y Angular Auto Fields a una base de datos en SQL SERVER 2012.
 
-# Paso 1
+# Paso 2
+
+## Instalar dependencias
+
+Vamos a instalar las dependencias con los siguientes comandos mediante una **ventana de comandos** dentro de la carpeta **"App"**
+
+```javascript
+npm install -g bower
+bower install angular-autoFields-bootstrap
+```
+Despues de instalar vamos a tener 3 nuevas carpetas dentro de nuestra carpeta **"App"** que son las siguientes:
+
+```javascript
+App
+    --bower_components
+        --angular
+        --angular-autoFields-bootstrap
+        --angular-bootstrap
+```
+
+## Copiar los Archivos en la carpeta **assets**
+
+Las carpetas angular, angular-autoFields-bootstrap y angular-bootstrap las vamos a **copiar**:
+
+```javascript
+App
+    --bower_components
+        --angular/
+        --angular-autoFields-bootstrap/
+        --angular-bootstrap/
+```
+dentro de la carpeta **"assets"**, que quedaria de la siguiente manera:
+
+```javascript
+App
+    --bower_components
+        --angular/
+        --angular-autoFields-bootstrap/
+        --angular-bootstrap/
+    --assets
+        --angular/(Esta es la nueva carpeta)
+        --angular-autoFields-bootstrap/(Esta es la nueva carpeta)
+        --angular-bootstrap/(Esta es la nueva carpeta)
+        --images/
+        --js/
+        --styles/
+        --templates/
+        --favicon.ico
+        --robots.txt
+        
+```
+
+
+# Crear el contenedor HTML
+
+## Crear una nueva carpeta llamada **Tablas** en la carpeta **assets**
+
+Vamos a crear una nueva carpeta llamada **Tablas** dentro de la carpeta **assets**
+
+```javascript
+App
+    --assets
+        --angular/
+        --angular-autoFields-bootstrap/
+        --angular-bootstrap/
+        --images/
+        --js/
+        --styles/
+        --Tablas/(Esta es la nueva carpeta)
+        --templates/
+        --favicon.ico
+        --robots.txt
+        
+```
+
+## Crear contenedor html con el **Nombre de la Tabla**
+
+Vamos a crear **un archivo .html por cada tabla**
+
+En nuestro ejemplo la tabla se va a llamar **"Persons"**
+
+nuestro archivo se va a llamar entonces **"Persons.html"**
+
+
+```html
+
+
+```
+
 
 Vamos a anadir la cadena de conexion en el archivo **connections.js** de configuracion de sails.
 
