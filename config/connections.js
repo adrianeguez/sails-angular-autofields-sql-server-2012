@@ -30,14 +30,14 @@ module.exports.connections = {
      ***************************************************************************/
     localDiskDb: {
         adapter: 'sails-disk'
-    }
-    , sqlserver: {
-        adapter: 'sails-sqlserver'
-        , user: 'sa'
-        , password: 'EPS.root'
-        , host: 'localhost'
-        , database: 'pruebaAdrian'
-        
+    },
+    sqlserver: {
+        adapter: 'sails-sqlserver',
+        user: 'sa',
+        password: 'EPS.root',
+        host: 'localhost',
+        database: 'pruebaAdrian'
+
     }
 
     /***************************************************************************
